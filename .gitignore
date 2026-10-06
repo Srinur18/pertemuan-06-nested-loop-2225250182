@@ -1,0 +1,33 @@
+
+---
+
+## .gitignore
+
+```gitignore
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
+
+# File sementara
+*.tmp
+*.log
+
+# Cache pytest
+.pytest_cache/
+
+# Notebook
+.ipynb_checkpoints/
